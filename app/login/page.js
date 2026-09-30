@@ -32,9 +32,6 @@ export default function LoginPage() {
         <div style={{ marginTop: 16 }}><button className="btn" type="submit">Log in</button></div>
       </form>
       {msg && <p className="notice" style={{ marginTop: 16 }}>{msg}</p>}
-      <p className="muted" style={{ marginTop: 16 }}>
-        Demo users are <code>*@sleepalot.test</code> with password <code>Password123!</code>
-      </p>
     </main>
   )
 }
